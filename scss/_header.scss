@@ -1,0 +1,23 @@
+.section-header {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.section-header__image {
+    order: 1;
+}
+
+@media(min-width: 1000px) {
+    .section-header {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 20px;
+    &__headings {
+        padding-left: 116px;
+        padding-right: 218px;
+    &--subheading {
+        font-size: 38px;
+    }
+    }
+}
+}
