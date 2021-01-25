@@ -30,6 +30,8 @@ img {
 .section-header {
   margin-left: 20px;
   margin-right: 20px; }
+  .section-header__headings--subheading {
+    font-size: 40px; }
 
 .section-header__image {
   order: 1; }
@@ -44,3 +46,51 @@ img {
       padding-right: 218px; }
       .section-header__headings--subheading {
         font-size: 38px; } }
+
+.section-manage {
+  padding-top: 20px;
+  margin-left: 20px; }
+  .section-manage__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 22px; }
+    .section-manage__header--heading {
+      font-size: 36px; }
+    .section-manage__header--text {
+      padding-left: 3px;
+      padding-right: 3px; }
+  .section-manage__main {
+    display: flex;
+    flex-direction: column; }
+
+.section-footer {
+  background-color: #e94b12;
+  padding: 100px 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px; }
+  .section-footer__button {
+    color: #e94e16;
+    background-color: white;
+    padding: 15px 34px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px; }
+  .section-footer__header {
+    font-size: 39px; }
+
+@media (min-width: 1000px) {
+  .section-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px; } }

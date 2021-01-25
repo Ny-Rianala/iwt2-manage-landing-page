@@ -1,6 +1,9 @@
 .section-header {
     margin-left: 20px;
     margin-right: 20px;
+    &__headings--subheading {
+        font-size: 40px;
+    }
 }
 
 .section-header__image {

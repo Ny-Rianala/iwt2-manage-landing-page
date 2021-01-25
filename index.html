@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Manage Landing Page</title>
 		<link rel="stylesheet" href="./design/css/index.css">
 	<body>
 		<input type="checkbox" id="menu_checkbox">
@@ -20,36 +21,41 @@
 					<img src="./images/illustration-intro.svg"/>
 				</div>
 				<div class="section-header__headings">
-					<h1 class="section-header__headings--subheading">Bring everyone together to build better products</h1>
+					<h1 class="section-header__headings--subheading ">Bring everyone together to build better products</h1>
 					<p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
 					<button>Get Started</button>
 				</div>
 			</section>
-			<section>
-				<div>
-					<h2>What’s different about Manage?</h2>
-					<p>Manage provides all the functionality
+			<section class="section-manage">
+				<div class="section-manage__header">
+					<h2 class="section-manage__header--heading">What’s different about Manage?</h2>
+					<p class="section-manage__header--text">Manage provides all the functionality
 						your team needs, without the complexity. Our software is tailor-made for
 						modern digital product teams.</p>
 				</div>
-				<div>
-					<div>
-						<h1>Track company-wide progress</h1>
-						<p> See how your
+				<div class="section-manage__main">
+					<div class="section-manage__main--container">
+						<button>01</button>
+						<h1 class="section-manage__main--container-header">Track company-wide progress</h1>
+						<p class="section-manage__main--container-text"> See how your
 							day-to-day tasks fit into the wider vision. Go from tracking progress at the
 							milestone level all the way done to the smallest of details. Never lose
 							sight of the bigger picture again.</p>
 					</div>
-					<div>
-						<h1>Advanced built-in reports</h1>
-						<p>Set internal
+					<div class="section-manage__main--container">
+						<button>02</button>
+						<h1 class="section-manage__main--container-header">Advanced built-in reports</h1>
+						<p class="section-manage__main--container-text">Set internal
 							delivery estimates and track progress toward company goals. Our customisable
 							dashboard helps you build out the reports you need to keep key stakeholders
 							informed.</p>
 					</div>
 					<div>
-						<h1>Everything you need in one place</h1>
-						<p> Stop jumping from one service
+						<ul>
+							<!-- <li><a href="#"><button>03</button></a></li> -->
+							<li><button href="#">03</button><h1 class="section-manage__main--container-header">Everything you need in one place</h1></li>
+						</ul>
+						<p class="section-manage__main--container-text"> Stop jumping from one service
 							to another to communicate, store files, track tasks and share documents.
 							Manage offers an all-in-one team productivity solution.</p>
 					</div>
@@ -77,9 +83,9 @@
 				</ul>
 				<button>Get Started</button>
 			</section>
-			<section>
-				<h1>”Simplify how your team works today. </h1>
-				<button>Get Started</button>
+			<section class="section-footer">
+				<h1 class="section-footer__header">Simplify how your team works today. </h1>
+				<button class="section-footer__button">Get Started</button>
 			</section>
 		</main>
 		<nav class="nav">
