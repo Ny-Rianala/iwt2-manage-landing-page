@@ -8,6 +8,14 @@
     &__headings--subheading {
         font-size: 40px;
     }
+    &__headings--button {
+        color: white;
+        border: none;
+        background: rgb(241, 78, 18);
+        padding: 20px 50px;
+        border-radius: 25px;
+        cursor: pointer;
+    }
 }
 
 
