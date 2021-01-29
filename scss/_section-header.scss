@@ -18,6 +18,12 @@
     }
 }
 
+@media(max-width: 375px) {
+    .start-button {
+        visibility: hidden;
+    }
+}
+
 
 
 @media(min-width: 1000px) {
@@ -35,5 +41,19 @@
     .section-header__image {
     order: 1;
 }
+}
+.logo {
+    margin-left: 90px;
+}
+.start-button {
+    position: absolute;
+    top: 6%;
+    left: 70%;
+    color: white;
+    border: none;
+    background: rgb(241, 78, 18);
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
 }
 }
