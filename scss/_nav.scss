@@ -25,14 +25,15 @@ body > nav {
   left: 0;
   bottom: 20px;
   width: 90%;
-  height: 35%;
+  height: 40%;
   box-shadow: 0 0 50px rgba(0,0,0,.5);
   transform: translateX(-110%);
   margin-top: 30%;
   margin-left: 10px;
   margin-right: 20px;
   padding-top: 15px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  align-items: centers;
 }
 
 body > [type="checkbox"]:checked ~ nav {

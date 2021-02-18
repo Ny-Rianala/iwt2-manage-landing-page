@@ -34,8 +34,12 @@
     &__headings {
         padding-left: 116px;
         padding-right: 218px;
+        text-align: left;
     &--subheading {
-        font-size: 38px;
+        font-size: 40px;
+    }
+    &--paragraph {
+        font-size: 16px;
     }
     }
     .section-header__image {
@@ -43,11 +47,11 @@
 }
 }
 .logo {
-    margin-left: 90px;
+    margin-left: 145px;
 }
 .start-button {
     position: absolute;
-    top: 6%;
+    top: 9%;
     left: 70%;
     color: white;
     border: none;

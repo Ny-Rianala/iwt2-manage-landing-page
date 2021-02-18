@@ -33,3 +33,55 @@
         padding-bottom: 50px;
     }
 }
+
+.footer{
+    background-color: #010114;
+    color: white;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.footer ul > li > a{
+    color: white;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 70px;
+}
+
+.input {
+    padding: 15px 24px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    color: rgb(18, 18, 104);
+}
+
+.start {
+    background-color: rgb(233, 78, 22);
+    color: white;
+    padding: 13px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 2px; 
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 35px;
+    padding-left: 15px;
+}
+
+.footer form {
+    padding-left: 14px;
+}
